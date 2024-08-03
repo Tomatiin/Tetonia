@@ -1,0 +1,271 @@
+[03Aug2024 04:23:54.358] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[03Aug2024 04:23:54.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.2+13-LTS
+[03Aug2024 04:23:54.361] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.2 by Eclipse Adoptium; OS Linux arch amd64 version 4.18.0-425.13.1.el8_7.x86_64
+[03Aug2024 04:23:54.492] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[03Aug2024 04:23:54.566] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///home/minecraft/multicraft/servers/server801370/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[03Aug2024 04:23:54.647] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /home/minecraft/multicraft/servers/server801370/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[03Aug2024 04:23:54.718] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[03Aug2024 04:23:55.596] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Aug2024 04:23:55.604] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[03Aug2024 04:23:55.626] [main/WARN] [mixin/]: Reference map 'sound_physics_remastered.refmap.json' for sound_physics_remastered.mixins.json could not be read. If this is a development environment you can ignore this message
+[03Aug2024 04:23:55.977] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[03Aug2024 04:23:56.154] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/home/minecraft/multicraft/servers/server801370/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[03Aug2024 04:23:59.601] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
+[03Aug2024 04:23:59.639] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.0.31, for MC 1.20.6 with MCP 20240429.135109
+[03Aug2024 04:23:59.639] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.0.31 Initialized
+[03Aug2024 04:23:59.647] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[03Aug2024 04:23:59.674] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.80.
+[03Aug2024 04:23:59.955] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[03Aug2024 04:23:59.987] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[03Aug2024 04:23:59.992] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[03Aug2024 04:24:00.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json
+[03Aug2024 04:24:00.525] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.8.3+mod Target: null
+[03Aug2024 04:24:00.529] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Aug2024 04:24:00.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 50.0.31 Target: 50.1.0
+[03Aug2024 04:24:00.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[03Aug2024 04:24:00.670] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.3 Target: null
+[03Aug2024 04:24:00.671] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[03Aug2024 04:24:00.845] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03Aug2024 04:24:01.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: BETA Current: 1.20.6-1.4.5 Target: 1.20.6-1.4.5
+[03Aug2024 04:24:02.192] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:ctov:chests/village/village_bakery - No key value in MapLike[{"type":"minecraft:loot_table","name":"ctov:chests/village/village_farm"}]; No key value in MapLike[{"type":"minecraft:loot_table","name":"minecraft:chests/village/village_butcher"}]
+[03Aug2024 04:24:02.200] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:ctov:chests/village/village_smith - No key value in MapLike[{"type":"minecraft:loot_table","weight":1,"name":"minecraft:chests/village/village_weaponsmith"}]; No key value in MapLike[{"type":"minecraft:loot_table","weight":1,"name":"minecraft:chests/village/village_toolsmith"}]; No key value in MapLike[{"type":"minecraft:loot_table","weight":1,"name":"minecraft:chests/village/village_fletcher"}]; No key value in MapLike[{"type":"minecraft:loot_table","weight":1,"name":"minecraft:chests/village/village_armorer"}]
+[03Aug2024 04:24:02.205] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/badlands_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/badlands_payment_buy\",requested:\"wares:agreement/village/badlands_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/badlands_payment_sell\",requested:\"wares:agreement/village/badlands_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.233] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/mushroom_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/mushroom_payment_buy\",requested:\"wares:agreement/village/mushroom_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/mushroom_payment_sell\",requested:\"wares:agreement/village/mushroom_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.238] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager - No key expand in MapLike[{"type":"minecraft:tag","weight":1,"name":"byg:all/saplings"}]; No key expand in MapLike[{"type":"minecraft:tag","weight":1,"name":"byg:mushrooms_for_foragers_table"}]
+[03Aug2024 04:24:02.254] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/swamp_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/swamp_payment_buy\",requested:\"wares:agreement/village/swamp_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/swamp_payment_sell\",requested:\"wares:agreement/village/swamp_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.274] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/mountain_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/mountain_payment_buy\",requested:\"wares:agreement/village/mountain_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/mountain_payment_sell\",requested:\"wares:agreement/village/mountain_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.277] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/jungle_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/jungle_payment_buy\",requested:\"wares:agreement/village/jungle_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/jungle_payment_sell\",requested:\"wares:agreement/village/jungle_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.286] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:ctov:chests/village/village_farm - No key value in MapLike[{"type":"minecraft:loot_table","name":"minecraft:gameplay/hero_of_the_village/farmer_gift"}]
+[03Aug2024 04:24:02.289] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/dark_forest_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/dark_forest_payment_buy\",requested:\"wares:agreement/village/dark_forest_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/dark_forest_payment_sell\",requested:\"wares:agreement/village/dark_forest_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.297] [Worker-Main-3/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element loot_tables:wares:chests/village/beach_warehouse - Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/beach_payment_buy\",requested:\"wares:agreement/village/beach_requested_buy\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Not a json array: {"function":"minecraft:set_nbt","tag":"{experience:{max:32,min:12,step:4},ordered:{max:256,min:64,step:8},payment:\"wares:agreement/village/beach_payment_sell\",requested:\"wares:agreement/village/beach_requested_sell\"}"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:set_nbt; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:sealed_delivery_agreement; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: wares:cardboard_box
+[03Aug2024 04:24:02.664] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1185 recipes
+[03Aug2024 04:24:02.795] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1277 advancements
+[03Aug2024 04:24:03.267] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.6
+[03Aug2024 04:24:03.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Aug2024 04:24:03.268] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Aug2024 04:24:03.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Aug2024 04:24:03.329] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 0.0.0.0:25595
+[03Aug2024 04:24:03.378] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Aug2024 04:24:03.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03Aug2024 04:24:03.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03Aug2024 04:24:03.411] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03Aug2024 04:24:03.412] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03Aug2024 04:24:03.453] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Tetonia"
+[03Aug2024 04:24:04.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Aug2024 04:24:05.630] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 04:24:05.648] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 04:24:05.676] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 04:24:05.703] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Aug2024 04:24:06.038] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1868 ms
+[03Aug2024 04:24:06.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.619s)! For help, type "help"
+[03Aug2024 04:24:06.050] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Aug2024 04:24:57.395] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:24:57.395] [Netty Epoll Server IO #1/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:24:57.412] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@3c7e5de1[id=7045336f-21a6-3b76-b274-d48634e69fd4,name=TomatinCR,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:25:03.316] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:25:03.316] [Netty Epoll Server IO #2/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:25:03.358] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@2c082f31[id=7045336f-21a6-3b76-b274-d48634e69fd4,name=TomatinCR,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:25:20.958] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:25:20.958] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:25:21.008] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@71f4b686[id=fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7,name=Maguiberth,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:25:26.461] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:25:26.461] [Netty Epoll Server IO #4/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:25:26.508] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@1c686e2e[id=fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7,name=Maguiberth,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:25:33.865] [Netty Epoll Server IO #8/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:25:33.866] [Netty Epoll Server IO #8/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:25:33.908] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@7a68e3bb[id=fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7,name=Maguiberth,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:25:36.618] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TICO7[/190.113.103.177:63455] logged in with entity id 10 at (-141.91573935515981, 82.0, 62.55454715646547)
+[03Aug2024 04:25:36.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 joined the game
+[03Aug2024 04:25:36.710] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player TICO7 just logged in with id 2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0
+[03Aug2024 04:25:36.713] [ForkJoinPool-3-worker-1/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent com/google/gson/reflect/TypeToken for class me/edoren/skin_changer/server/SkinProviderController$1 in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@4f2410ac on thread Thread[#106,ForkJoinPool-3-worker-1,8,SERVER]
+[03Aug2024 04:25:36.714] [ForkJoinPool-3-worker-1/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: com.google.gson.reflect.TypeToken
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:75) ~[eventbus-6.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:31) ~[eventbus-6.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:30) ~[eventbus-6.2.6.jar!/:?]
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:36) ~[eventbus-6.2.6.jar!/:6.2.6]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:91) ~[modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:107) ~[modlauncher-10.2.1.jar!/:?]
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:44) ~[modlauncher-10.2.1.jar!/:?]
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.readerToClass(SecureModuleClassLoader.java:480) ~[securemodules-2.2.19.jar:2.2.19]
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.findClass(SecureModuleClassLoader.java:406) ~[securemodules-2.2.19.jar:2.2.19]
+	at cpw.mods.securejarhandler/net.minecraftforge.securemodules.SecureModuleClassLoader.loadClass(SecureModuleClassLoader.java:422) ~[securemodules-2.2.19.jar:2.2.19]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at TRANSFORMER/skin_changer@0.6.2/me.edoren.skin_changer.server.SkinProviderController.readCacheFile(SkinProviderController.java:261) ~[?:?]
+	at TRANSFORMER/skin_changer@0.6.2/me.edoren.skin_changer.server.SkinProviderController.loadPlayerDataFromCache(SkinProviderController.java:210) ~[?:?]
+	at TRANSFORMER/skin_changer@0.6.2/me.edoren.skin_changer.server.SkinProviderController.lambda$onPlayerLogin$3(SkinProviderController.java:281) ~[?:?]
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[03Aug2024 04:25:37.311] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/TICO7 downloaded
+[03Aug2024 04:25:37.535] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://crafatar.com/skins/4b6e941a-3910-41ca-896a-d9423547d259 downloaded
+[03Aug2024 04:25:37.614] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player TICO7[2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0]
+[03Aug2024 04:25:37.615] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0
+[03Aug2024 04:25:37.714] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/TICO7 downloaded
+[03Aug2024 04:25:37.823] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://crafatar.com/capes/4b6e941a-3910-41ca-896a-d9423547d259 downloaded
+[03Aug2024 04:25:37.824] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded cape for player TICO7[2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0]
+[03Aug2024 04:25:37.828] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/capes/2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0
+[03Aug2024 04:26:16.686] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Maguiberth[/201.203.117.155:23937] logged in with entity id 358 at (-308.01603912984297, 74.0, -18.530273052141577)
+[03Aug2024 04:26:16.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth joined the game
+[03Aug2024 04:26:16.692] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Maguiberth just logged in with id fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7
+[03Aug2024 04:26:17.415] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Maguiberth downloaded
+[03Aug2024 04:26:17.610] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://crafatar.com/skins/ee08e11b-3a0d-4e2b-904d-ce40c52593aa downloaded
+[03Aug2024 04:26:17.610] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player Maguiberth[fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7]
+[03Aug2024 04:26:17.612] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7
+[03Aug2024 04:26:17.634] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Maguiberth downloaded
+[03Aug2024 04:26:40.599] [Netty Epoll Server IO #12/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:26:40.599] [Netty Epoll Server IO #12/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:26:40.618] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@1ef57d01[id=95eccbe8-fc8e-34eb-8b1b-324ef0f8d867,name=Teba,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:27:14.846] [Netty Epoll Server IO #14/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:27:14.846] [Netty Epoll Server IO #14/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:27:14.866] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@1e847500[id=95eccbe8-fc8e-34eb-8b1b-324ef0f8d867,name=Teba,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:28:14.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth has made the advancement [Getting an Upgrade]
+[03Aug2024 04:28:35.399] [Netty Epoll Server IO #15/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [skin_changer:mbechannel] rejected their client side version number
+[03Aug2024 04:28:35.399] [Netty Epoll Server IO #15/ERROR] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Terminating connection with client, mismatched channel list
+[03Aug2024 04:28:35.416] [Server thread/INFO] [net.minecraft.server.network.ServerConfigurationPacketListenerImpl/]: com.mojang.authlib.GameProfile@3a299284[id=95eccbe8-fc8e-34eb-8b1b-324ef0f8d867,name=Teba,properties={}] lost connection: Connection closed - mismatched mod channel list
+[03Aug2024 04:30:04.295] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Teba[/177.93.3.207:29799] logged in with entity id 1898 at (-165.20814144012928, 93.0, 41.84017508151086)
+[03Aug2024 04:30:04.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba joined the game
+[03Aug2024 04:30:04.316] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Teba just logged in with id 95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 04:30:04.997] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Teba downloaded
+[03Aug2024 04:30:05.221] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://crafatar.com/skins/f20627b4-cf6e-4c98-880c-87fa6f4c8f2f downloaded
+[03Aug2024 04:30:05.222] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 04:30:05.223] [ForkJoinPool-3-worker-4/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 04:30:05.245] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Teba downloaded
+[03Aug2024 04:30:05.309] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://crafatar.com/capes/f20627b4-cf6e-4c98-880c-87fa6f4c8f2f downloaded
+[03Aug2024 04:30:05.310] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded cape for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 04:30:05.311] [ForkJoinPool-3-worker-4/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/capes/95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 04:30:10.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba has made the advancement [A Seedy Place]
+[03Aug2024 04:30:33.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Monster Hunter]
+[03Aug2024 04:30:44.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 was shot by Skeleton
+[03Aug2024 04:31:51.210] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[03Aug2024 04:31:55.653] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TomatinCR[/190.113.103.230:32918] logged in with entity id 3033 at (-70.75487861957544, 64.0, 30.797326409197666)
+[03Aug2024 04:31:55.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TomatinCR joined the game
+[03Aug2024 04:31:55.658] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player TomatinCR just logged in with id 7045336f-21a6-3b76-b274-d48634e69fd4
+[03Aug2024 04:31:56.425] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/TomatinCR downloaded
+[03Aug2024 04:31:56.645] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://crafatar.com/skins/8f5e144f-a20a-41dd-8f31-b7f5bbebf3b5 downloaded
+[03Aug2024 04:31:56.646] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player TomatinCR[7045336f-21a6-3b76-b274-d48634e69fd4]
+[03Aug2024 04:31:56.648] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/7045336f-21a6-3b76-b274-d48634e69fd4
+[03Aug2024 04:31:56.710] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/TomatinCR downloaded
+[03Aug2024 04:32:18.910] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://t.novaskin.me/29e29d252b0b6a8ff49ff67d38e1b47e45ff01eb426990cedfefe5a94332fbbc downloaded
+[03Aug2024 04:32:18.911] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player TomatinCR[7045336f-21a6-3b76-b274-d48634e69fd4]
+[03Aug2024 04:32:18.913] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/7045336f-21a6-3b76-b274-d48634e69fd4
+[03Aug2024 04:34:28.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 was slain by Maguiberth
+[03Aug2024 04:38:07.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth has made the advancement [Monster Hunter]
+[03Aug2024 04:39:23.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 fell from a high place
+[03Aug2024 04:39:56.743] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://www.planetminecraft.com/skin/waffen-ss-em-late-war/ downloaded
+[03Aug2024 04:39:56.744] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 04:39:56.745] [ForkJoinPool-3-worker-7/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 04:40:15.585] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Teba lost connection: Disconnected
+[03Aug2024 04:40:15.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba left the game
+[03Aug2024 04:40:15.586] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 04:40:21.349] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Teba[/177.93.3.207:53476] logged in with entity id 5733 at (-169.15568689566223, 77.0, 43.69999998807907)
+[03Aug2024 04:40:21.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba joined the game
+[03Aug2024 04:40:21.353] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Teba just logged in with id 95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 04:40:21.354] [ForkJoinPool-3-worker-7/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 04:40:21.355] [ForkJoinPool-3-worker-7/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 04:43:26.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was slain by Maguiberth
+[03Aug2024 04:47:05.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was slain by Spider
+[03Aug2024 04:52:41.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba has made the advancement [Monster Hunter]
+[03Aug2024 05:11:33.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Acquire Hardware]
+[03Aug2024 05:11:44.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Isn't It Iron Pick]
+[03Aug2024 05:13:27.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba suffocated in a wall
+[03Aug2024 05:14:43.926] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://t.novaskin.me/29e29d252b0b6a8ff49ff67d38e1b47e45ff01eb426990cedfefe5a94332fbbc downloaded
+[03Aug2024 05:14:43.926] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player TomatinCR[7045336f-21a6-3b76-b274-d48634e69fd4]
+[03Aug2024 05:14:43.928] [ForkJoinPool-3-worker-9/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file Tetonia/skin_changer/skins/7045336f-21a6-3b76-b274-d48634e69fd4
+[03Aug2024 05:18:07.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 4 of a max of 10 players online: Maguiberth, TomatinCR, TICO7, Teba
+[03Aug2024 05:18:14.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 4 of a max of 10 players online: Maguiberth, TomatinCR, TICO7, Teba
+[03Aug2024 05:19:59.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gamerule doInsomnia is now set to: true
+[03Aug2024 05:20:18.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth has made the advancement [Acquire Hardware]
+[03Aug2024 05:21:20.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gamerule doInsomnia is now set to: false
+[03Aug2024 05:22:21.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gamerule doWardenSpawning is now set to: true
+[03Aug2024 05:22:59.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Sweet Dreams]
+[03Aug2024 05:23:05.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth has made the advancement [Sweet Dreams]
+[03Aug2024 05:23:16.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gamerule naturalRegeneration is now set to: true
+[03Aug2024 05:23:33.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth has made the advancement [Suit Up]
+[03Aug2024 05:26:03.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba has made the advancement [Suit Up]
+[03Aug2024 05:26:17.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba has made the advancement [Acquire Hardware]
+[03Aug2024 05:27:04.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba has made the advancement [Isn't It Iron Pick]
+[03Aug2024 05:30:31.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TomatinCR was shot by Skeleton
+[03Aug2024 05:30:41.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Not Today, Thank You]
+[03Aug2024 05:30:42.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth was impaled by Drowned
+[03Aug2024 05:36:36.822] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Teba lost connection: Disconnected
+[03Aug2024 05:36:36.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba left the game
+[03Aug2024 05:36:36.823] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:37:44.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Suit Up]
+[03Aug2024 05:38:58.430] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Teba[/177.93.3.207:54757] logged in with entity id 37144 at (-183.66597035518794, 26.0, 177.34260791420718)
+[03Aug2024 05:38:58.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba joined the game
+[03Aug2024 05:38:58.434] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Teba just logged in with id 95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 05:38:58.435] [ForkJoinPool-3-worker-10/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:38:58.436] [ForkJoinPool-3-worker-10/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:39:30.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was slain by Spider
+[03Aug2024 05:43:40.822] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Teba lost connection: Disconnected
+[03Aug2024 05:43:40.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba left the game
+[03Aug2024 05:43:40.823] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:44:14.470] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TICO7 lost connection: Disconnected
+[03Aug2024 05:44:14.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 left the game
+[03Aug2024 05:44:14.471] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player TICO7[2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0]
+[03Aug2024 05:45:03.196] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Teba[/177.93.3.207:54894] logged in with entity id 40423 at (-99.50987072812606, 68.0, 58.69999998807907)
+[03Aug2024 05:45:03.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba joined the game
+[03Aug2024 05:45:03.199] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Teba just logged in with id 95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 05:45:03.200] [ForkJoinPool-3-worker-11/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:45:03.200] [ForkJoinPool-3-worker-11/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:45:57.970] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Teba lost connection: Disconnected
+[03Aug2024 05:45:57.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba left the game
+[03Aug2024 05:45:57.971] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:46:53.583] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Teba[/177.93.3.207:54993] logged in with entity id 40981 at (-119.30000001192093, 45.0, 80.69999998807907)
+[03Aug2024 05:46:53.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba joined the game
+[03Aug2024 05:46:53.585] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Teba just logged in with id 95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 05:46:53.586] [ForkJoinPool-3-worker-12/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:46:53.587] [ForkJoinPool-3-worker-12/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 05:53:51.870] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TomatinCR lost connection: Disconnected
+[03Aug2024 05:53:51.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TomatinCR left the game
+[03Aug2024 05:53:51.871] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player TomatinCR[7045336f-21a6-3b76-b274-d48634e69fd4]
+[03Aug2024 05:54:45.968] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Maguiberth lost connection: Disconnected
+[03Aug2024 05:54:45.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth left the game
+[03Aug2024 05:54:45.969] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Maguiberth[fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7]
+[03Aug2024 06:06:55.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was shot by Skeleton
+[03Aug2024 06:07:03.462] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Teba lost connection: Disconnected
+[03Aug2024 06:07:03.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba left the game
+[03Aug2024 06:07:03.463] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 14:52:30.822] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TICO7[/190.113.103.177:63269] logged in with entity id 45820 at (-283.98494640826317, 47.0, -1.4819425797230792)
+[03Aug2024 14:52:30.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 joined the game
+[03Aug2024 14:52:30.826] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player TICO7 just logged in with id 2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0
+[03Aug2024 14:52:30.827] [ForkJoinPool-3-worker-13/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player TICO7[2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0]
+[03Aug2024 14:52:30.827] [ForkJoinPool-3-worker-13/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player TICO7[2a4e630f-aae4-3fab-8f7c-8ad5eab2fda0]
+[03Aug2024 15:04:46.854] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Teba[/177.93.3.207:51440] logged in with entity id 47750 at (-36.7972420180035, 62.0, 16.25783248111073)
+[03Aug2024 15:04:46.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba joined the game
+[03Aug2024 15:04:46.856] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Teba just logged in with id 95eccbe8-fc8e-34eb-8b1b-324ef0f8d867
+[03Aug2024 15:04:46.857] [ForkJoinPool-3-worker-14/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 15:04:46.857] [ForkJoinPool-3-worker-14/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Teba[95eccbe8-fc8e-34eb-8b1b-324ef0f8d867]
+[03Aug2024 15:31:52.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was killed by Witch using magic
+[03Aug2024 15:45:29.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba fell from a high place
+[03Aug2024 16:27:27.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Hot Stuff]
+[03Aug2024 16:40:59.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was shot by Skeleton
+[03Aug2024 16:49:27.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba was shot by Skeleton
+[03Aug2024 17:05:15.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [Diamonds!]
+[03Aug2024 17:36:07.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teba has made the advancement [Diamonds!]
+[03Aug2024 18:08:14.581] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-848, y=71, z=-573} BlockPos{x=-849, y=71, z=-572}
+[03Aug2024 18:08:24.014] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-845, y=72, z=-580} BlockPos{x=-844, y=70, z=-581}
+[03Aug2024 18:08:24.117] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-845, y=72, z=-580} BlockPos{x=-844, y=70, z=-581}
+[03Aug2024 18:09:41.219] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-851, y=72, z=-575} BlockPos{x=-852, y=70, z=-577}
+[03Aug2024 18:12:54.217] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Maguiberth[/201.203.117.155:23884] logged in with entity id 130358 at (-261.30000001192093, 100.0, 337.63757023376)
+[03Aug2024 18:12:54.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth joined the game
+[03Aug2024 18:12:54.224] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Maguiberth just logged in with id fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7
+[03Aug2024 18:12:54.312] [ForkJoinPool-3-worker-15/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Maguiberth[fa5c056a-1698-3b8f-8c7a-153c6bdb1aa7]
+[03Aug2024 18:12:54.611] [ForkJoinPool-3-worker-15/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Maguiberth downloaded
+[03Aug2024 18:14:30.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TICO7 has made the advancement [A Seedy Place]
+[03Aug2024 18:26:20.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maguiberth has made the advancement [Isn't It Iron Pick]
+[03Aug2024 18:40:36.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maguiberth> DUERMA MALPARIDO TEBA
+[03Aug2024 18:40:41.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Teba> chupe
+[03Aug2024 18:40:46.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Teba> mis rosadas bolas
+[03Aug2024 18:40:55.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Teba> no tengo lana no he visto ovejas
+[03Aug2024 18:58:59.814] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[03Aug2024 18:59:17.516] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
+[03Aug2024 18:59:34.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2443ms or 48 ticks behind
+[03Aug2024 19:13:27.186] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1619, y=66, z=-453} BlockPos{x=1619, y=67, z=-452}

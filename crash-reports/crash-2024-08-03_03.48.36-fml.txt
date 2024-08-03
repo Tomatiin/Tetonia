@@ -1,0 +1,147 @@
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 2024-08-03 03:48:36
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at TRANSFORMER/forge@50.0.31/net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:48) ~[forge-1.20.6-50.0.31-universal.jar:?] {re:classloading}
+	at TRANSFORMER/forge@50.0.31/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.6-50.0.31-universal.jar:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.Main.main(Main.java:127) ~[forge-1.20.6-50.0.31-server.jar:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.6-50.0.31/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.20.6-50.0.31.jar!/:?] {}
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.6-50.0.31/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.20.6-50.0.31.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!/:?] {}
+	at net.minecraftforge.bootstrap@2.1.1/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.1.jar!/:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.1.jar:2.1.1] {}
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.1.jar:2.1.1] {}
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.1.jar:2.1.1] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) [forge-1.20.6-50.0.31-shim.jar:2.1.1] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at TRANSFORMER/forge@50.0.31/net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:51) ~[forge-1.20.6-50.0.31-universal.jar!/:?] {re:classloading}
+-- MOD packedup --
+Details:
+	Mod File: /home/minecraft/multicraft/servers/server801370/mods/packedup-1.0.30b-forge-mc1.20.6.jar
+	Failure message: Mod packedup requires forge 50.1.10 or above
+		Currently, forge is 50.0.31
+	Mod Version: 1.0.30+b
+	Mod Issue URL: https://github.com/SuperMartijn642/PackedUp/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at TRANSFORMER/forge@50.0.31/net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:51) ~[forge-1.20.6-50.0.31-universal.jar:?] {re:classloading}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {}
+	at TRANSFORMER/forge@50.0.31/net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:49) ~[forge-1.20.6-50.0.31-universal.jar:?] {re:classloading}
+	at TRANSFORMER/forge@50.0.31/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.6-50.0.31-universal.jar:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.20.6/net.minecraft.server.Main.main(Main.java:127) ~[forge-1.20.6-50.0.31-server.jar:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.6-50.0.31/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.20.6-50.0.31.jar!/:?] {}
+	at SECURE-BOOTSTRAP/net.minecraftforge.fmlloader@1.20.6-50.0.31/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.20.6-50.0.31.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:77) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:97) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:116) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [modlauncher-10.2.1.jar!/:?] {}
+	at SECURE-BOOTSTRAP/cpw.mods.modlauncher@10.2.1/cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) [modlauncher-10.2.1.jar!/:?] {}
+	at net.minecraftforge.bootstrap@2.1.1/net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) [bootstrap-2.1.1.jar!/:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) [bootstrap-2.1.1.jar:2.1.1] {}
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) [bootstrap-2.1.1.jar:2.1.1] {}
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) [bootstrap-2.1.1.jar:2.1.1] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.bootstrap.shim.Main.main(Main.java:97) [forge-1.20.6-50.0.31-shim.jar:2.1.1] {}
+
+
+-- MOD packedup --
+Details:
+	Mod File: /home/minecraft/multicraft/servers/server801370/mods/packedup-1.0.30b-forge-mc1.20.6.jar
+	Failure message: Mod packedup requires supermartijn642corelib 1.1.17 or above, and below 1.2.0
+		Currently, supermartijn642corelib is not installed
+	Mod Version: 1.0.30+b
+	Mod Issue URL: https://github.com/SuperMartijn642/PackedUp/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD packedup --
+Details:
+	Mod File: /home/minecraft/multicraft/servers/server801370/mods/packedup-1.0.30b-forge-mc1.20.6.jar
+	Failure message: Mod packedup requires supermartijn642configlib 1.1.6 or above
+		Currently, supermartijn642configlib is not installed
+	Mod Version: 1.0.30+b
+	Mod Issue URL: https://github.com/SuperMartijn642/PackedUp/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD jei --
+Details:
+	Mod File: /home/minecraft/multicraft/servers/server801370/mods/jei-1.19.2-forge-11.6.0.1019.jar
+	Failure message: Mod jei requires minecraft between 1.19 and 1.19.2 (inclusive)
+		Currently, minecraft is 1.20.6
+	Mod Version: 11.6.0.1019
+	Mod Issue URL: https://github.com/mezz/JustEnoughItems/issues?q=is%3Aissue
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.6
+	Minecraft Version ID: 1.20.6
+	Operating System: Linux (amd64) version 4.18.0-425.13.1.el8_7.x86_64
+	Java Version: 21.0.2, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 53305408 bytes (50 MiB) / 327155712 bytes (312 MiB) up to 5242880000 bytes (5000 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800X 8-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 130976.12
+	Virtual memory used (MB): 150183.19
+	Swap memory total (MB): 66559.98
+	Swap memory used (MB): 36112.43
+	JVM Flags: 5 total; -Xmx5000M -Xms128M -XX:MaxDirectMemorySize=256M -XX:MaxMetaspaceSize=1024M -XX:MaxRAMPercentage=90.0
+	ModLauncher: 10.2.1
+	ModLauncher launch target: forge_server
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ object_holder_definalize PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ eventbus PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		lowcodefml@50
+		minecraft@1.0
+		javafml@50.0.31
+	Mod List: 
+		forge-1.20.6-50.0.31-server.jar                   |Minecraft                     |minecraft                     |1.20.6              |NONE      |Manifest: NOSIGNATURE
+		forge-1.20.6-50.0.31-universal.jar                |Forge                         |forge                         |50.0.31             |NONE      |Manifest: NOSIGNATURE
